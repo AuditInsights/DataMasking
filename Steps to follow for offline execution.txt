@@ -1,0 +1,32 @@
+Steps to follow to run the tool offline :
+
+Step 1 : Download and install python from https://www.python.org/downloads/
+
+Step 2 : Download below from GitHub : https://github.com/AuditInsights/DataMasking and unzip contents to a folder
+
+install_dependencies.py
+streamlit run Data_Masking_App.py
+
+Step 3 : Run dependencies
+
+3.1 Go to folder where step 1 is downloaded
+3.2 Click on address bar of the folder
+3.3 type "cmd" (without quotes) in the address bar.  This will open command prompt for the folder
+3.4 Type "py install_dependencies.py" (without quotes) and press Enter
+
+Wait for the dependencies to be installed.  You will see this message "✅ All packages installed successfully!"
+
+Step 4 : run data masking app
+
+4.1 Type "streamlit run Data_Masking_App.py" (without quotes) in the same command prompt for the folder and press Enter
+4.2 Web browser will open (Chrome, Edge, etc) in your local machine
+
+Step 5 : Use the app - App is running in your own machine
+
+
+IMPORTANT : 
+
+(1) Do not close the command prompt when you are using the app.  App will not work if command prompt is closed
+(2) Step 3 : Run dependencies need to be run only once in a machine
+(3) When you have closed the app and want to use it again, just follow Step 4 : run data masking app
+(4) Unzip contents that you have downloaded from GitHub in a folder.  Will not work, if above steps are followed in a zipped folder
