@@ -7,7 +7,8 @@ packages = [
     "pandas",
     "numpy",
     "openpyxl",
-    "plotly"
+    "plotly",
+    "xlsxwriter"
 ]
 
 def install():
